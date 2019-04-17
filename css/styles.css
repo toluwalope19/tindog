@@ -1,0 +1,141 @@
+body{
+    font-family: "Montserrat"
+}
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: 700;
+}   
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "montserrat-light";
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right:30%;
+}
+
+.features{
+    
+    margin: auto;
+    padding:7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    
+}
+h3{
+    font-family: "Montserrat-bold";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.feat{
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+.features p{
+    color: #81818f;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+h2{
+    font-family: montserrat-bold;
+    font-size:3rem;
+    line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;   
+}
+.press-logo{
+    width: 15%;
+    margin:20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding:3% 2%;
+}
+@Media (max-width: 1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    height: 380px;
+    text-align: center;
+}
+.cta-p{
+    font-family: montserrat-black;
+    font-size: 3rem;
+    padding: 5% 20% 0;
+    color: #fff;
+}
+#footer{
+    text-align: center;
+   padding: 7% 15%;
+}
+.soc{
+    color: black;
+    margin: 20px 10px;
+}
+footer p{
+    color: #81818f;
+}
